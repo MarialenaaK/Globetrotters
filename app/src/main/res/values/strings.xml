@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FinalApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings"> </string>
+
+    <string name="menu_home">Αρχική</string>
+    <string name="menu_gallery">Τοπική Βάση</string>
+    <string name="menu_slideshow">Απομακρυσμένη Βάση</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="queries_array">
+        <item>Τοπική Βάση</item>
+        <item>1.Κωδικοί από τα ταξιδιωτικά πρακτορεία στη Θεσσαλονίκη.</item>
+        <item>2.Πληροφορίες για όλα τα ταξιδιωτικά πρακτορεία.</item>
+        <item>3.Τα ονόματα των καταχωρημένων ταξιδιωτικών πρακτορείων.</item>
+
+        <item>4.Πόλεις της Ελλάδας όπου γίνονται εκδρομές.</item>
+        <item>5.Τα στοιχεία όλων των εκδρομών.</item>
+        <item>6.Πόσες εγγραφές έχει η κάθε πόλη.</item>
+
+        <item>7.Ημερομηνίες εκδρομών κάτω των 200Ε.</item>
+        <item>8.Ημερομηνία εκδρομής και τιμή για όλα τα ταξιδιωτικά πακέτα.</item>
+        <item>9.Κωδικοί ταξιδιωτικών πρακτορείων με βαση τις χαμηλότερες τιμές τους.</item>
+    </string-array>
+
+
+
+
+    <string-array name="queries_array2">
+
+
+        <item>Απομακρυσμένη Βάση</item>
+        <item>1.Oι εγγεγραμένοι της εκδρομής στην Εύβοια.</item>
+        <item>2.Οι εγγραφές κάθε ξενοδοχείου με κωδικό dave591.</item>
+        <item>3.Οι εγεγραμμένοι της εκδρομής στο Ρέθυμνο.</item>
+
+    </string-array>
+
+    <string-array name="queries_desc">
+        <item> </item>
+        <item>1.Κωδικοί από τα ταξιδιωτικά πρακτορεία στη Θεσσαλονίκη.</item>
+        <item>2.Πληροφορίες για όλα τα ταξιδιωτικά πρακτορεία.</item>
+        <item>3.Τα ονόματα των καταχωρημένων ταξιδιωτικών πρακτορείων.</item>
+
+        <item>4.Πόλεις της Ελλάδας όπου γίνονται εκδρομές.</item>
+        <item>5.Τα στοιχεία όλων των εκδρομών.</item>
+        <item>6.Πόσες εγγραφές έχει η κάθε πόλη.</item>
+
+        <item>7.Ημερομηνίες εκδρομών κάτω των 200Ε.</item>
+        <item>8.Ημερομηνία εκδρομής και τιμή για όλα τα ταξιδιωτικά πακέτα.</item>
+        <item>9.Κωδικοί ταξιδιωτικών πρακτορείων με βαση τις χαμηλότερες τιμές τους.</item>
+
+
+
+
+    </string-array>
+
+
+    <string-array name="queries_desc2">
+        <item> </item>
+
+
+        <item>1.Oι εγγεγραμένοι της εκδρομής στην Εύβοια.</item>
+        <item>2.Οι εγγραφές κάθε ξενοδοχείου με κωδικό dave591.</item>
+        <item>3.Οι εγεγραμμένοι της εκδρομής στο Ρέθυμνο.</item>
+
+
+
+
+    </string-array>
+
+
+
+</resources>

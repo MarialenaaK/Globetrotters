@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.telikoapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.telikoapp.ui.localDB.LocalFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_localdb" >
+        <action
+            android:id="@+id/action_nav_gallery_to_addTravelAgency"
+            app:destination="@id/addTravelAgency" />
+        <action
+            android:id="@+id/action_nav_gallery_to_showTravelAgency"
+            app:destination="@id/showTravelAgency" />
+        <action
+            android:id="@+id/action_nav_gallery_to_addVacationPackage"
+            app:destination="@id/addVacationPackage" />
+        <action
+            android:id="@+id/action_nav_gallery_to_showVacationPackage"
+            app:destination="@id/showVacationPackage" />
+        <action
+            android:id="@+id/action_nav_gallery_to_addVacation"
+            app:destination="@id/addVacation" />
+        <action
+            android:id="@+id/action_nav_gallery_to_showVacation"
+            app:destination="@id/showVacation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.telikoapp.ui.cloudDB.fragment_firebase"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_firebase" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_fragment_firebase_see"
+            app:destination="@id/fragment_firebase_see" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_firebase_add_Fragment"
+            app:destination="@id/fragment_firebase_add" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTravelAgency"
+        android:name="com.example.telikoapp.ui.localDB.addTravelAgency"
+        android:label="addTravelAgency" >
+        <action
+            android:id="@+id/action_addTravelAgency_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/showTravelAgency"
+        android:name="com.example.telikoapp.ui.localDB.showTravelAgency"
+        android:label="showTravelAgency" >
+        <action
+            android:id="@+id/action_showTravelAgency_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_firebase_see"
+        android:name="com.example.telikoapp.ui.cloudDB.fragment_firebase_see"
+        android:label="fragment_firebase_see" />
+    <fragment
+        android:id="@+id/fragment_firebase_add"
+        android:name="com.example.telikoapp.ui.cloudDB.fragment_firebase_add"
+        android:label="fragment_firebase_add_"
+        tools:layout="@layout/fragment_firebase_add" />
+    <fragment
+        android:id="@+id/queryFragment"
+        android:name="com.example.telikoapp.ui.home.QueryFragment"
+        android:label="fragment_query"
+        tools:layout="@layout/fragment_query" />
+    <fragment
+        android:id="@+id/addVacation"
+        android:name="com.example.telikoapp.ui.localDB.addVacation"
+        android:label="add_vacation"
+        tools:layout="@layout/add_vacation" >
+        <action
+            android:id="@+id/action_addVacation_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/addVacationPackage"
+        android:name="com.example.telikoapp.ui.localDB.addVacationPackage"
+        android:label="add_vacation_package"
+        tools:layout="@layout/add_vacation_package" >
+        <action
+            android:id="@+id/action_addVacationPackage_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/showVacation"
+        android:name="com.example.telikoapp.ui.localDB.showVacation"
+        android:label="show_vacation"
+        tools:layout="@layout/show_vacation" >
+        <action
+            android:id="@+id/action_showVacation_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/showVacationPackage"
+        android:name="com.example.telikoapp.ui.localDB.showVacationPackage"
+        android:label="show_vacation_package"
+        tools:layout="@layout/show_vacation_package" >
+        <action
+            android:id="@+id/action_showVacationPackage_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+</navigation>
